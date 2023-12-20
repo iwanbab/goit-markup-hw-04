@@ -1,3 +1,5 @@
+/** ============================GENERAL============================== */
+
 body {
     background: #fff;
     font-family: 'Roboto', sans-serif;
@@ -6,7 +8,7 @@ body {
     letter-spacing: normal;
 }
 
-img{
+img {
     display: block;
     max-width: 100%;
     height: auto;
@@ -42,7 +44,23 @@ p {
     margin: 0 auto;
     padding: 0 15px;
 }
-/* header */
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+/** ==================================================================== */
+/** ===============================HEADER================================ */
+
 .header {
     border-bottom: 1px solid #e7e9fc;
 }
@@ -50,7 +68,6 @@ p {
 .container-header {
     display: flex;
     align-items: center;
-    
 }
 
 .header-logo {
@@ -106,7 +123,6 @@ margin-right: 76px;
     line-height: 24px;
     letter-spacing: 0.02em;
     display: block;
-    padding-topL;
 }
 
 .header-nav-link:hover,
@@ -125,16 +141,16 @@ margin-right: 76px;
     color: #404BBF;
 }
 
-/* main */
-/* hero section */
+/** ==================================================================== */
+/** ===============================MAIN================================= */
+/** ===========================HERO=SECTION============================= */
 
 .hero {
     background-color: #2E2F42;
     padding: 188px 0;    
     text-align: center;
-    align-items: center;
+    display: block;
 }
-
 
 .hero-title {                                                     
     color: #FFFFFF;
@@ -143,12 +159,11 @@ margin-right: 76px;
     line-height: 1.07;
     letter-spacing: 0.02em;
     max-width: 496px;
-    margin: 0 auto;
+    margin: auto;
     margin-bottom: 48px;
 }
 
 .hero-btn {
-    display: block;
     color: #FFFFFF;
     cursor: pointer;
     background-color: #4D5AE5;
@@ -162,7 +177,7 @@ margin-right: 76px;
     height: 56px;
     border: none;
     border-radius: 4px;
-    margin: 0 auto;
+    display: inline-block;
 }
 
 .hero-btn:hover,
@@ -170,23 +185,11 @@ margin-right: 76px;
     background: #404BBF;
 }
 
-/* benefits section */
+/** ==================================================================== */
+/** =======================BENEFITS=SECTION============================= */
 
 .benefits {
     padding: 120px 0;
-}
-
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip:rect(0 0 0 0);
-    overflow: hidden;
 }
 
 .benefits-list {
@@ -215,7 +218,9 @@ margin-right: 76px;
     margin-bottom: 8px;
 }
 
-/* team section */
+/** ==================================================================== */
+/** =========================TEAM=SECTION=============================== */
+
 .team {
     background-color: #F4F4FD;
     padding: 120px 0;
@@ -264,7 +269,9 @@ margin-right: 76px;
     letter-spacing: 0.02em;
 }
 
-/* portfolio section */
+/** ==================================================================== */
+/** ======================PORTFOLIO=SECTION============================= */
+
 .portfolio {
     background-color: #FFF; 
     padding: 120px 0 120px 0;
@@ -313,7 +320,10 @@ margin-right: 76px;
     letter-spacing: 0.02em;
 }
 
-/* footer */
+/** ==================================================================== */
+/** ==========================MAIN=END================================== */
+/** ===========================FOOTER=================================== */
+
 .footer {
     background-color: #2E2F42;
     padding: 100px 0;
@@ -332,7 +342,6 @@ margin-right: 76px;
     margin-right: 76px;
 }
 
-
 .footer-logo-text {
     color: #F4F4FD;
     font-family: 'Raleway';
@@ -341,7 +350,6 @@ margin-right: 76px;
     line-height: 21px;
     text-transform: uppercase;
 }
-
 
 .footer-text {
     color:  #F4F4FD;
