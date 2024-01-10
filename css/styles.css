@@ -236,6 +236,10 @@ p {
     border-radius: 0.25rem;
     border: 1px solid #8E8F99;
     background: #F4F4FD;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 8px;
 }
 
 .benefits-icon-position {
