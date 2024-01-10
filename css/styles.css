@@ -115,13 +115,6 @@ p {
     gap: 40px; 
 }
 
-.header-nav-link {
-    padding: 24px 0;
-    position: relative;
-    color: #404bbf;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
 .header-nav-link::after {
     content: "";
     position: absolute;
@@ -130,7 +123,6 @@ p {
     height: 4px;
     background-color: #404bbf;
     border-radius: 2px;
-
 }
 
 .header-contact-list {
@@ -139,11 +131,14 @@ p {
 }
 
 .header-nav-link {
-    color:#2E2F42;
+    color: #404bbf;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
     display: block;
+    padding: 24px 0;
+    position: relative;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-nav-link:hover,
@@ -385,14 +380,13 @@ p {
 
 .portfolio-list-item {
     width: calc((100% - 48px) / 3);
-    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);;
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-list-item:hover {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16),
     0px 2px 1px rgba(46, 47, 66, 0.08);
-    transform: translateY(0%);
 }
 
 .portfolio-list-name {
@@ -417,13 +411,13 @@ p {
     letter-spacing: 0.02em;
 }
 
-.portfolio-list-item:hover {
-   
-}
-
 .portfolio-img-container {
     position: relative;
     overflow: hidden;
+}
+
+.portfolio-img-container:hover .portfolio-img-description {
+    transform: translateY(0);
 }
 
 .portfolio-img-description {
