@@ -62,7 +62,6 @@ p {
 }
 
 /** ===================================================================== */
-
 /** ===============================HEADER================================ */
 
 .header {
@@ -123,13 +122,11 @@ p {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
-}
-
-.nav-link-1 {
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     position: relative;
     color: #404bbf;
 }
+
 .nav-link-1:hover::after {
     content: "";
     position: absolute;
@@ -172,9 +169,7 @@ p {
 }
 
 /** ==================================================================== */
-
 /** ===============================MAIN================================= */
-
 /** ===========================HERO=SECTION============================= */
 
 .hero {
@@ -224,7 +219,6 @@ p {
 }
 
 /** ==================================================================== */
-
 /** =======================BENEFITS=SECTION============================= */
 
 .benefits {
@@ -279,7 +273,6 @@ p {
 }
 
 /** ==================================================================== */
-
 /** =========================TEAM=SECTION=============================== */
 
 .team {
@@ -464,7 +457,7 @@ p {
 }
 
 .footer-logo-container {
-    margin-right: 96px;
+    margin-right: 120px;
 }
 
 .footer-logo {
@@ -498,8 +491,7 @@ p {
     letter-spacing: 0.02em;
     width: 16.5rem;
 }  
-.footer-icons-container {
-    
+.footer-icons-container { 
 }
 
 .footer-icons-text {
@@ -518,7 +510,6 @@ p {
 }
 
 .footer-icon-item {
-
 }
 
 .footer-icon-link {
@@ -533,6 +524,11 @@ p {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-social-icon {
+.footer-icon-link:hover,
+.footer-icon-link:focus {
+    background-color: #31d0aa;
+}
 
+.footer-social-icon {
+    fill: #f4f4fd;
 }
