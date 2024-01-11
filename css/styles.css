@@ -142,6 +142,7 @@ p {
     gap: 40px;
 }
 
+.header-nav-link:hover,
 .header-nav-link:focus{
     color:#404bbf;
 }
