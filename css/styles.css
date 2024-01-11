@@ -127,7 +127,7 @@ p {
     color: #404bbf;
 }
 
-.nav-link-1:hover::after {
+.header-nav-link:hover::after {
     content: "";
     position: absolute;
     left: 0;
